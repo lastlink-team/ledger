@@ -1,0 +1,10 @@
+Lastlink.Ledger.Application/bin/*
+Lastlink.Ledger.Application/obj/*
+Lastlink.Ledger.Infrastructure/bin/*
+Lastlink.Ledger.Infrastructure/obj/*
+Lastlink.Ledger.WebApi/bin/*
+Lastlink.Ledger.WebApi/obj/*       
+Lastlink.Ledger.Domain/bin/*
+Lastlink.Ledger.Domain/obj/*
+Lastlink.Ledger.Console/bin/*
+Lastlink.Ledger.Console/obj/*
