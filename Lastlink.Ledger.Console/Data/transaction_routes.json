@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Cashin EC",
+    "description": "Entrada de saldo via PIX (Moving Pay) ou cartão/boleto (IUGU) liquidados",
+    "operationRoutes": [
+      "cashin_external_debito",
+      "cashin_ec_credito"
+    ]
+  },
+  {
+    "title": "Saque EC",
+    "description": "Saque confirmado — saída definitiva do ledger",
+    "operationRoutes": [
+      "saque_ec_debito",
+      "saque_external_credito"
+    ]
+  },
+  {
+    "title": "Transferência entre Carteiras",
+    "description": "Movimentação interna entre carteiras do mesmo usuário",
+    "operationRoutes": [
+      "wallet_transfer_debito",
+      "wallet_transfer_credito"
+    ]
+  },
+  {
+    "title": "Estorno EC",
+    "description": "Estorno, cancelamento, reembolso, chargeback ou MED PIX",
+    "operationRoutes": [
+      "estorno_ec_debito",
+      "estorno_external_credito"
+    ]
+  }
+]

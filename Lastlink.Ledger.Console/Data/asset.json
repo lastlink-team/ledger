@@ -1,0 +1,9 @@
+{
+  "name": "Brazilian Real",
+  "type": "currency",
+  "code": "BRL",
+  "status": {
+    "code": "ACTIVE",
+    "description": "Primary fiat asset used for domestic settlement and customer balances"
+  }
+}

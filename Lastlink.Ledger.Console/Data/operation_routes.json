@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Cashin External Debito",
+    "operationType": "source",
+    "account": {
+      "ruleType": "alias",
+      "validIf": "@external/BRL"
+    },
+    "code": "cashin_external_debito",
+    "description": "Cashin EC — debito na conta externa"
+  },
+  {
+    "title": "Cashin EC Credito",
+    "operationType": "destination",
+    "account": {
+      "ruleType": "account_type",
+      "validIf": ["conta_ec"]
+    },
+    "code": "cashin_ec_credito",
+    "description": "Cashin EC — credito na conta EC"
+  },
+  {
+    "title": "Saque EC Debito",
+    "operationType": "source",
+    "account": {
+      "ruleType": "account_type",
+      "validIf": ["conta_ec_"]
+    },
+    "code": "saque_ec_debito",
+    "description": "Saque EC — debito na conta EC"
+  },
+  {
+    "title": "Saque External Credito",
+    "operationType": "destination",
+    "account": {
+      "ruleType": "alias",
+      "validIf": "@external/BRL"
+    },
+    "code": "saque_external_credito",
+    "description": "Saque EC — credito na conta externa"
+  },
+  {
+    "title": "Wallet Transfer Debito",
+    "operationType": "source",
+    "account": {
+      "ruleType": "account_type",
+      "validIf": ["conta_ec_"]
+    },
+    "code": "wallet_transfer_debito",
+    "description": "Transferencia — debito na conta EC"
+  },
+  {
+    "title": "Wallet Transfer Credito",
+    "operationType": "destination",
+    "account": {
+      "ruleType": "account_type",
+      "validIf": ["conta_ec_"]
+    },
+    "code": "wallet_transfer_credito",
+    "description": "Transferencia — credito na conta EC"
+  },
+  {
+    "title": "Estorno EC Debito",
+    "operationType": "source",
+    "account": {
+      "ruleType": "account_type",
+      "validIf": ["conta_ec_"]
+    },
+    "code": "estorno_ec_debito",
+    "description": "Estorno EC — debito na conta EC"
+  },
+  {
+    "title": "Estorno External Credito",
+    "operationType": "destination",
+    "account": {
+      "ruleType": "alias",
+      "validIf": "@external/BRL"
+    },
+    "code": "estorno_external_credito",
+    "description": "Estorno EC — credito na conta externa"
+  }
+]

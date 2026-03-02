@@ -1,0 +1,17 @@
+{
+  "legalName": "LASTLINK TECNOLOGIA S.A.",
+  "legalDocument": "38220040000111",
+  "doingBusinessAs": "Lastlink",
+  "status": {
+    "code": "ACTIVE",
+    "description": "Com sede em BELO HORIZONTE, MG, possui 5 anos, 5 meses e 29 dias e foi fundada em 25/08/2020. A sua situação cadastral é ATIVA e sua principal atividade econômica é Desenvolvimento e licenciamento de programas de computador não-customizáveis."
+  },
+  "address": {
+    "line1": "Avenida Getúlio Vargas, 874, Sala 1405, bairro Savassi, Belo Horizonte",
+    "zipCode": "30112-021",
+    "city": "Belo Horizonte",
+    "state": "MG",
+    "country": "BR",
+    "line2": "Savassi"
+  }
+}

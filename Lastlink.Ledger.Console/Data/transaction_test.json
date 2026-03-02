@@ -1,0 +1,38 @@
+{
+  "organizationId": "{organization_id}",
+  "ledgerId": "{ledger_id}",
+  "description": "PIX",
+  "pending": false,
+  "code": "TXN-2026-000001",
+  "transactionDate": "2026-02-25T21:06:38Z",
+  "send": {
+    "asset": "BRL",
+    "value": "1000",
+    "source": {
+      "from": [
+        {
+          "accountAlias": "@external/BRL",
+          "balanceKey": "default",
+          "amount": {
+            "asset": "BRL",
+            "value": "1000"
+          },
+          "description": "Debit pix"
+        }
+      ]
+    },
+    "distribute": {
+      "to": [
+        {
+          "accountAlias": "customer-brl-1",
+          "balanceKey": "default",
+          "amount": {
+            "asset": "BRL",
+            "value": "1000"
+          },
+          "description": "Credit pix"
+        }
+      ]
+    }
+  }
+}
